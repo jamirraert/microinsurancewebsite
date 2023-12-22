@@ -1,0 +1,161 @@
+.section_4{
+    .container{
+        background-color: $primary-color;
+        border-left: 1px solid $gray-color;
+        border-right: 1px solid $gray-color;
+
+        .adjust_4{
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div{
+                margin-left: 10%;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                max-width: 36%;
+                min-width: 41rem;
+
+                .hand-circle{
+                    height: 4rem;
+                    width:auto;
+                    position: absolute;
+                    top: 3.4rem;
+                    left: -1.5rem;
+                }
+                p:nth-child(2){
+                    color: $orange-color;
+                    font-size: 2.4rem;
+                    font-weight: 600;
+                    z-index: 2;
+                }
+                p:nth-child(3){
+                    padding-top: 2rem;
+                    color: $white-color;
+                    font-size: 1.3rem;
+                }
+            }
+
+            img.hand-ok{
+                height: 25rem;
+                width:auto;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .section_4{
+        .container{
+            background-color: $primary-color;
+            border-left: 1px solid $gray-color;
+            border-right: 1px solid $gray-color;
+    
+            .adjust_4{
+    
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+                div{
+                    margin-left: 10%;
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    max-width: 36%;
+                    min-width: 20rem;
+                  
+                    .hand-circle{
+                        height: 3.2rem;
+                        width:auto;
+                        position: absolute;
+                        top: 2.7rem;
+                        left: 11.3rem;
+                    }
+                    p:nth-child(2){
+                        color: $orange-color;
+                        font-size: 2rem;
+                        font-weight: 600;
+                        z-index: 2;
+                    }
+                    p:nth-child(3){
+                        padding-top: 1.5rem;
+                        color: $white-color;
+                        font-size: 1.3rem;
+                    }
+                }
+    
+                img.hand-ok{
+                    height: 25rem;
+                    width:auto;
+                }
+    
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .section_4{
+        .container{
+            background-color: $primary-color;
+            border-left: 1px solid $gray-color;
+            border-right: 1px solid $gray-color;
+    
+            .adjust_4{
+    
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+
+                position: relative;
+                overflow: hidden;
+    
+                div{
+                    margin-left: 0%;
+                    display: flex;
+                    flex-direction: column;
+                    position: relative;
+                    max-width: 36%;
+                    min-width: 22rem;
+                    height: 34rem;
+                    margin-top: 2rem;
+    
+                    .hand-circle{
+                        height: 3.2rem;
+                        width:auto;
+                        position: absolute;
+                        top: 2.7rem;
+                        left: 11.3rem;
+                    }
+                    p:nth-child(2){
+                        color: $orange-color;
+                        font-size: 2rem;
+                        font-weight: 600;
+                        z-index: 2;
+                    }
+                    p:nth-child(3){
+                        padding-top: 1.5rem;
+                        color: $white-color;
+                        font-size: 1.2rem;
+                    }
+                }
+    
+                img.hand-ok{
+                    height: 17rem;
+                    width:auto;
+                    position: absolute;
+                    bottom: 0;
+                    right: -8%;
+                    margin: 0;
+                    padding: 0;
+                }
+    
+            }
+        }
+    }
+}
