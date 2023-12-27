@@ -10,13 +10,13 @@
                     CashKO is a solutions-first insurance provider that focuses on 
                     making microinsurance accessible to each and every Filipino family.
                 </p>
-                <button class="btn">LEARN MORE</button>
+                <button class="btn" onclick="scrollToSection('section_1')">LEARN MORE</button>
             </div>
             <img src="{{ asset('images/microinsurance-banner-subject.png') }}" class="main_subject">
         </div>
     </div>
 </div>
-<div class='section_1'>
+<div class='section_1' id='section_1'>
     <div class="container">
         <div>
             <p>
@@ -75,7 +75,7 @@
         <div class="adjust">
             <div>
                 <p>Need help with your policies or claims?</p>
-                <button class="btn_blue">CONTACT US</button>
+                <button class="btn_blue" onclick="scrollToSection('home_footer_banner')">CONTACT US</button>
             </div>
         </div>
     </div>
@@ -92,7 +92,7 @@
         </div>
     </div>
 </div>    
-<div class='section_5'>
+<div class='section_5' id='section_5'>
     <div class="container">
         <div class="adjust_5">
            <p>
@@ -150,7 +150,7 @@
     </div>
 </div>
 
-<div class="home_faq">
+<div class="home_faq" id='home_faq'>
     <div class="container">
         <div id="left">
             <p>FAQs</p> 
@@ -292,7 +292,7 @@
 </div>
 
 
-<div class='home_footer_banner'>
+<div class='home_footer_banner' id='home_footer_banner'>
     <div class="container">
         <div class="container_adjustment">
             <div>
@@ -335,4 +335,14 @@
         </div>
     </div>
 </div>
+<script>
+    function scrollToSection(id) {
+        var targetSection = document.getElementById(id);
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    }
+</script>
 @endsection

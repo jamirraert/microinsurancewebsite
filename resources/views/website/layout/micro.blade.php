@@ -22,10 +22,10 @@
                 <img src="{{ asset('images/CashKo-Primary-Logo.png') }}">
             </a>
             <ul id="nav_items">
-                <li><a href="#">CUSTOMERS</a></li>
-                <li><a href="#">PARTNERS</a></li>
-                <li><a href="#">FAQS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="#" onclick="scrollToSection('section_1')">CUSTOMERS</a></li>
+                <li><a href="#" onclick="scrollToSection('section_5')">PARTNERS</a></li>
+                <li><a href="#" onclick="scrollToSection('home_faq')">FAQS</a></li>
+                <li><a href="#" onclick="scrollToSection('home_footer_banner')">CONTACT</a></li>
             </ul>
             <button id="open_nav_btn"><i class='bx bx-menu'></i></button>
             <button id="close_nav_btn"><i class='bx bx-x'></i></button>
