@@ -205,9 +205,9 @@
                         </div>
                     </div>
                     <div id="accordion-content" class="accordion-content">
-                        We customize all of our plans to fit the needs and budgets of our partners. If you have 
-                        clients in need of affordable protection, CashKO’s Partnership team can help you build 
-                        a solution that’s right for you. Schedule an appointment now through our Contact Us page. 
+                        Claims can be made at your plan’s home financial institution, or the place where 
+                        you purchased the plan. Alternatively, you may contact CashKO’s customer service using 
+                        the details below. We are always ready to help you with your claims.  
                     </div>
                 </div>
         
@@ -221,8 +221,9 @@
                         </div>
                     </div>
                     <div id="accordion-content" class="accordion-content">
-                        RuralNet would be happy to help you clean up and migrate your existing data onto the RuralNet platform. Our 
-                        dedicated project managers will ensure a smooth transition and onboarding process for your products. 
+                        We customize all of our plans to fit the needs and budgets of our partners. If you have clients in 
+                        need of affordable protection, CashKO’s Partnership team can help you build a solution that’s right for you. 
+                        Schedule an appointment now through our Contact Us page.
                     </div>
                 </div>
             </div>

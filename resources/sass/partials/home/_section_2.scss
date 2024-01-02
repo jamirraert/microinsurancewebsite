@@ -20,7 +20,7 @@
                 height: 21rem;
                 
                 width: 29%;
-                min-width: 20rem;
+                min-width: 22rem;
 
                 color: $primary-color;
 
@@ -79,6 +79,33 @@
 }
 
 @media screen and (max-width: 1044px) {
+    .section_2{
+        .container{
+            div{
+                padding: 0;
+                div:first-child{
+                    margin-top: 0;
+                }
+                div:nth-child(1){
+                    margin-top: 2rem;
+                    
+                }
+                div:nth-child(2){
+                    margin-top: 2rem;
+                    p:nth-child(3){
+                        margin-top: -1.5rem!important;
+                    }
+                }
+                div:nth-child(3){
+                    margin-top: 3rem;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 703px) {
     .section_2{
         .container{
             div{
