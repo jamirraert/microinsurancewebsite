@@ -338,12 +338,16 @@
 </div>
 <script>
     function scrollToSection(id) {
-        var targetSection = document.getElementById(id);
-        if (targetSection) {
-            targetSection.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
+    var targetSection = document.getElementById(id);
+
+    if (targetSection && !window.location.hash.includes(id)) {
+        // Update the URL fragment without triggering a scroll
+        history.replaceState(null, null, '#' + id);
+
+        targetSection.scrollIntoView({
+            behavior: 'smooth'
+        });
     }
+}
 </script>
 @endsection
