@@ -10,7 +10,7 @@
                     CashKO is a solutions-first insurance provider that focuses on 
                     making microinsurance accessible to each and every Filipino family.
                 </p>
-                <button class="btn" onclick="scrollToSection('section_1')">LEARN MORE</button>
+                <a class="btn" href="#section_1">LEARN MORE</a>
             </div>
             <img src="{{ asset('images/microinsurance-banner-subject.png') }}" class="main_subject">
         </div>
