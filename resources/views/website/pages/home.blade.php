@@ -5,7 +5,7 @@
     <div class="container">
         <div class="home_content_adjustment">
             <div class="home_left">
-                <p>Protektado ang pamilya kapag kasama si marvin CashKO!</p>
+                <p>Protektado ang pamilya kapag kasama si CashKO!</p>
                 <p>
                     CashKO is a solutions-first insurance provider that focuses on 
                     making microinsurance accessible to each and every Filipino family.
