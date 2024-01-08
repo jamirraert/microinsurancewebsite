@@ -315,12 +315,12 @@
 
                     <tr>
                         <td class="td-label">Toll-Free:</td>
-                        <td class="td-content" style="color: rgb(255,255,255) !impportant">&nbsp;1800 1320 0211</td>
+                        <td class="td-content" style="color: rgb(255,255,255) !impportant">1800 1320 0211</td>
                     </tr>
 
                     <tr>
                         <td class="td-label">Globe:</td>
-                        <td class="td-content" style="color: rgb(255,255,255) !impportant">&nbsp;(028) 876 1428</td>
+                        <td class="td-content">&nbsp;<span style="color: rgb(255,255,255) !impportant">(028) 876 1428</span></td>
                     </tr>
 
                     <tr>
