@@ -39,7 +39,8 @@
                             width: 8rem;
                         }
                         .td-content {
-                            p {width: 374px;}
+                            padding: 0.5rem;
+                            p {width: 100%; max-width: 374px}
                         }
                     }
                 }
