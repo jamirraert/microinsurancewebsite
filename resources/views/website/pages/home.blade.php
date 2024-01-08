@@ -359,15 +359,15 @@
                     </tr>
                     <tr>
                         <td>Toll-Free:</td>
-                        <td>1800 1320 0211</td>
+                        <td><span>1800 1320 0211</span></td>
                     </tr>
                     <tr>
                         <td>Globe:</td>
-                        <td>(028) 876 1428</td>
+                        <td><span>(028) 876 1428</span></td>
                     </tr>
                     <tr>
                         <td>PLDT:</td>
-                        <td>(032) 342 7826</td>
+                        <td><p>(032) 342 7826</p></td>
                     </tr>
                     <tr>
                         <td></td>
