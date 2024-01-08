@@ -293,7 +293,7 @@
 </div>
 
 
-<div class='home_footer_banner' id='home_footer_banner'>
+{{-- <div class='home_footer_banner' id='home_footer_banner'>
     <div class="container">
         <div class="container_adjustment">
             <div>
@@ -338,6 +338,52 @@
             </div>
         </div>
     </div>
+</div> --}}
+
+<div class="footer_banner">
+   <div class="container">
+    <div class="footer_banner_inner">
+
+        <div class="footer_banner_inner_desc">
+            <h1>Our Cashko agents are always available to walk you through our microinsurance process</h1>
+            <p>Contact us today for a 15-minute consultation where we'll help you determine a CashKO plan that works best for you</p>
+            <img src="{{ asset('images/CashKO_Accent-2.png') }}" class="footer_banner_inner_desc_img1" />
+            <img src="{{ asset('images/cashko-hand-blue-transparent.png') }}" class="footer_banner_inner_desc_img2" />
+        </div>
+        <div class="footer_banner_inner_contact">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Email:</td>
+                        <td><p>support@ruralnet.ph</p></td>
+                    </tr>
+                    <tr>
+                        <td>Toll-Free:</td>
+                        <td>1800 1320 0211</td>
+                    </tr>
+                    <tr>
+                        <td>Globe:</td>
+                        <td>(028) 876 1428</td>
+                    </tr>
+                    <tr>
+                        <td>PLDT:</td>
+                        <td>(032) 342 7826</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td><p class="footer_banner_inner_contact_address">2F, RuralNet, Inc., 1830 South Building, Arcenas Estate, Brgy. Labangon, Cebu City Cebu</p></td>
+                    </tr>
+    
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+   </div>
 </div>
 <script>
     function scrollToSection(id) {

@@ -1,246 +1,377 @@
-.home_footer_banner{
-    color: rgb(255,255,255);
-    .container{
-        background-color: $blue-color;
-        font-size: 1.2rem;
+// .home_footer_banner{
+//     color: rgb(255,255,255);
+//     .container{
+//         background-color: $blue-color;
+//         font-size: 1.2rem;
 
-        .container_adjustment{
-            padding: 2rem;
+//         .container_adjustment{
+//             padding: 2rem;
             
-            div{
-                position: relative;
-                .img-always{
-                    height: 2.7rem;
-                    width: auto;
+//             div{
+//                 position: relative;
+//                 .img-always{
+//                     height: 2.7rem;
+//                     width: auto;
                     
-                    position: absolute;
-                    top:2.8rem;
-                    right: 1.3rem;
-                }
+//                     position: absolute;
+//                     top:2.8rem;
+//                     right: 1.3rem;
+//                 }
 
-                .img-ok{
-                    height: 6rem;
-                    width: auto;
-                    position: absolute;
-                    top:0;
-                    right: 3rem;
-                }
+//                 .img-ok{
+//                     height: 6rem;
+//                     width: auto;
+//                     position: absolute;
+//                     top:0;
+//                     right: 3rem;
+//                 }
 
-                table{
-                    padding-top: 3rem;
+//                 table{
+//                     padding-top: 3rem;
                     
-                    tr{
-                        .td-label{
-                            vertical-align: top;
-                            font-weight: 700;
-                            padding-right: 0.1rem;
-                            width: 8rem;
-                        }
-                        .td-content {
-                            padding: 0.5rem;
-                            p {width: 100%; max-width: 374px}
-                        }
-                    }
-                }
-            }
+//                     tr{
+//                         .td-label{
+//                             vertical-align: top;
+//                             font-weight: 700;
+//                             padding-right: 0.1rem;
+//                             width: 8rem;
+//                         }
+//                         .td-content {
+//                             padding: 0.5rem;
+//                             p {width: 100%; max-width: 374px}
+//                         }
+//                     }
+//                 }
+//             }
 
-            display: flex;
-            justify-content: space-around;
-            div:first-child >p{
-                font-size: 1.7rem;
-                font-weight: 600;
-                padding-top: 3rem;
-                padding-bottom: 1rem;
-                width: 30rem;
-            }
+//             display: flex;
+//             justify-content: space-around;
+//             div:first-child >p{
+//                 font-size: 1.7rem;
+//                 font-weight: 600;
+//                 padding-top: 3rem;
+//                 padding-bottom: 1rem;
+//                 width: 30rem;
+//             }
 
-            div:nth-child(2) >p{
-                width: 22rem;
-                font-size: 1.2rem;
-                padding-bottom: 3rem;
-            }
-        }
-    }
-}
+//             div:nth-child(2) >p{
+//                 width: 22rem;
+//                 font-size: 1.2rem;
+//                 padding-bottom: 3rem;
+//             }
+//         }
+//     }
+// }
 
-@media screen and (max-width: 1147px) {
-    .home_footer_banner{
+// @media screen and (max-width: 1147px) {
+//     .home_footer_banner{
         
-        .container{
-            display: block;
-            background-color: $blue-color;
-            font-size: 1rem;
+//         .container{
+//             display: block;
+//             background-color: $blue-color;
+//             font-size: 1rem;
     
-            .container_adjustment{
-                padding: 2rem;
-                display: block;
-                div{
-                    position: relative;
-                    .img-always{
-                        height: 2rem;
-                        width: auto;
-                        position: absolute;
-                        left: 16rem;
-                        top: 3rem;
-                    }
+//             .container_adjustment{
+//                 padding: 2rem;
+//                 display: block;
+//                 div{
+//                     position: relative;
+//                     .img-always{
+//                         height: 2rem;
+//                         width: auto;
+//                         position: absolute;
+//                         left: 16rem;
+//                         top: 3rem;
+//                     }
     
-                    .img-ok{
-                        height: 6rem;
-                        width: auto;
+//                     .img-ok{
+//                         height: 6rem;
+//                         width: auto;
     
-                        position: absolute;
-                        right: -2rem;
-                        top: -10.5rem;
-                    }
+//                         position: absolute;
+//                         right: -2rem;
+//                         top: -10.5rem;
+//                     }
     
-                    table{
-                        padding-top: 2rem;
-                        tr{
-                            .td-label{
-                                vertical-align: top;
-                                font-size: 0.9rem;
-                                font-weight: 700;
-                                padding-right: 0.1rem;
-                                width: 6.4rem;
-                            }
+//                     table{
+//                         padding-top: 2rem;
+//                         tr{
+//                             .td-label{
+//                                 vertical-align: top;
+//                                 font-size: 0.9rem;
+//                                 font-weight: 700;
+//                                 padding-right: 0.1rem;
+//                                 width: 6.4rem;
+//                             }
     
-                            .td-content{
-                                font-size: 0.9rem;
-                            }
-                        }
-                    }
-                }
+//                             .td-content{
+//                                 font-size: 0.9rem;
+//                             }
+//                         }
+//                     }
+//                 }
     
-                div:first-child >p{
-                    font-size: 1.4rem;
-                    font-weight: 600;
-                    padding-top: 3rem;
-                    padding-bottom: 1rem;
-                    width: 100%;
-                }
+//                 div:first-child >p{
+//                     font-size: 1.4rem;
+//                     font-weight: 600;
+//                     padding-top: 3rem;
+//                     padding-bottom: 1rem;
+//                     width: 100%;
+//                 }
 
-                div:nth-child(2) >p{
-                    width: 100%;
-                    font-size: 1.2rem;
-                    padding-bottom: 0rem;
-                }
+//                 div:nth-child(2) >p{
+//                     width: 100%;
+//                     font-size: 1.2rem;
+//                     padding-bottom: 0rem;
+//                 }
     
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 623px) {
+//     .home_footer_banner {
+//         .container{
+//             background-color: $blue-color;
+//             font-size: 1rem;
+    
+//             .container_adjustment{
+//                 padding: 2rem;
+    
+//                 div{
+//                     position: relative;
+//                     .img-always{
+//                         height: 2rem;
+//                         width: auto;
+//                         position: absolute;
+//                         left: 16rem;
+//                         top: 3rem;
+//                     }
+    
+//                     .img-ok{
+//                         height: 6rem;
+//                         width: auto;
+    
+//                         position: absolute;
+//                         right: -2rem;
+//                         top: -12.5rem;
+//                     }
+    
+//                     table{
+//                         padding-top: 2rem;
+//                         tr{
+//                             .td-label{
+//                                 vertical-align: top;
+//                                 font-size: 0.9rem;
+//                                 font-weight: 700;
+//                                 padding-right: 0.1rem;
+//                                 width: 6.4rem;
+//                             }
+    
+//                             .td-content{
+//                                 font-size: 0.9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 div:first-child >p{
+//                     font-size: 1.4rem;
+//                     font-weight: 600;
+//                     padding-top: 3rem;
+//                     padding-bottom: 1rem;
+//                 }
+    
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 439px) {
+//     .home_footer_banner{
+//         .container{
+//             background-color: $blue-color;
+//             font-size: 1rem;
+    
+//             .container_adjustment{
+//                 padding: 2rem;
+    
+//                 div{
+//                     position: relative;
+//                     .img-always{
+//                         height: 2rem;
+//                         width: auto;
+//                         position: absolute;
+//                         left: -1rem;
+//                         top: 5rem;
+//                     }
+    
+//                     .img-ok{
+//                         height: 6rem;
+//                         width: auto;
+    
+//                         position: absolute;
+//                         right: -2rem;
+//                         top: -14rem;
+//                     }
+    
+//                     table{
+//                         padding-top: 2rem;
+//                         tr{
+//                             .td-label{
+//                                 vertical-align: top;
+//                                 font-size: 0.9rem;
+//                                 font-weight: 700;
+//                                 padding-right: 0.1rem;
+//                                 width: 6.4rem;
+//                             }
+    
+//                             .td-content{
+//                                 font-size: 0.9rem;
+//                             }
+//                         }
+//                     }
+//                 }
+    
+//                 div:first-child >p{
+//                     font-size: 1.4rem;
+//                     font-weight: 600;
+//                     padding-top: 3rem;
+//                     padding-bottom: 1rem;
+//                 }
+    
+//             }
+//         }
+//     }
+// }
+
+.footer_banner {
+    background: $blue-color;
+    padding: 1.5rem;
+    line-height: 1.2;
+    height: 100%;
+    color: $white-color;
+}
+
+.footer_banner_inner {
+    display: flex;
+
+    &_desc, &_contact {
+        width: 50%;
+    }
+
+    &_desc {
+        position: relative;
+        h1, p {
+            position:relative;
+            width: 445px;
+            z-index: 2;
+        }
+        h1{
+            font-size: 25px;
+            margin: 58px 0 20px;
+        }
+        p {
+            font-size: 22px;
+            margin: 0 0 58px;
+        }
+        &_img1 {
+            width: 130.79px;
+            height: 43.04px;
+            position: absolute;
+            top: 51px;
+            left: 287px;
+            z-index: 1;
+        }
+        &_img2 {
+            width: 78.44px;
+            height: 55.23px;
+            position: absolute;
+            top: 158px;
+            left: 363px;
+            z-index: 1;
+        }
+
+    }
+    &_contact {
+        table {
+            margin: 2.3em auto;
+            width: 67%;
+        }
+       tr, td {
+            width: 100%;
+            padding: 0.5em;
+            font-size: 20px;
+            border-collapse: collapse;
+        }
+        tr td:first-child {
+            width: 10%;
+            font-weight: bold;
+        }
+        &_address {
+            max-width: 400px;
+            width: 100%;
+        }
+    }
+}
+
+// TABLET PORTRAIT & LANDSCAPE
+@media only screen and (max-width : 1024px) {
+    .footer_banner_inner {
+        &_desc {
+            h1, p {
+                width: 349px;
+            }
+            h1{
+                font-size: 21px;
+            }
+            p {
+                font-size: 18px;
+            }
+            &_img1 {
+                width: 108.79px;
+                height: 37.04px;
+                top: 52px;
+                left: 245px;
+            }
+            &_img2 {
+                top: 143px;
+                left: 302px;
+            }
+        }
+        &_contact {
+            table, tr, td {
+                font-size: 15px;
             }
         }
     }
 }
 
-@media screen and (max-width: 623px) {
-    .home_footer_banner {
-        .container{
-            background-color: $blue-color;
-            font-size: 1rem;
-    
-            .container_adjustment{
-                padding: 2rem;
-    
-                div{
-                    position: relative;
-                    .img-always{
-                        height: 2rem;
-                        width: auto;
-                        position: absolute;
-                        left: 16rem;
-                        top: 3rem;
-                    }
-    
-                    .img-ok{
-                        height: 6rem;
-                        width: auto;
-    
-                        position: absolute;
-                        right: -2rem;
-                        top: -12.5rem;
-                    }
-    
-                    table{
-                        padding-top: 2rem;
-                        tr{
-                            .td-label{
-                                vertical-align: top;
-                                font-size: 0.9rem;
-                                font-weight: 700;
-                                padding-right: 0.1rem;
-                                width: 6.4rem;
-                            }
-    
-                            .td-content{
-                                font-size: 0.9rem;
-                            }
-                        }
-                    }
-                }
-    
-                div:first-child >p{
-                    font-size: 1.4rem;
-                    font-weight: 600;
-                    padding-top: 3rem;
-                    padding-bottom: 1rem;
-                }
-    
+@media only screen and (max-width: 768px) {
+    .footer_banner_inner {
+        display: block;
+        &_desc {
+            width: 100%;
+            max-width: 342px;
+            margin: 0 auto;
+            &_img1 {
+                top: -6px;
+                left: 244px;
+            }
+            &_img2 {
+                top: 90px;
+                left: 287px;
             }
         }
-    }
-}
-
-@media screen and (max-width: 439px) {
-    .home_footer_banner{
-        .container{
-            background-color: $blue-color;
-            font-size: 1rem;
-    
-            .container_adjustment{
-                padding: 2rem;
-    
-                div{
-                    position: relative;
-                    .img-always{
-                        height: 2rem;
-                        width: auto;
-                        position: absolute;
-                        left: -1rem;
-                        top: 5rem;
-                    }
-    
-                    .img-ok{
-                        height: 6rem;
-                        width: auto;
-    
-                        position: absolute;
-                        right: -2rem;
-                        top: -14rem;
-                    }
-    
-                    table{
-                        padding-top: 2rem;
-                        tr{
-                            .td-label{
-                                vertical-align: top;
-                                font-size: 0.9rem;
-                                font-weight: 700;
-                                padding-right: 0.1rem;
-                                width: 6.4rem;
-                            }
-    
-                            .td-content{
-                                font-size: 0.9rem;
-                            }
-                        }
-                    }
-                }
-    
-                div:first-child >p{
-                    font-size: 1.4rem;
-                    font-weight: 600;
-                    padding-top: 3rem;
-                    padding-bottom: 1rem;
-                }
-    
+        &_contact {
+            margin: 0 auto;
+            width: 342px;
+            table {
+                width: 100%;
+            }
+            &_address {
+                width: 100%;
             }
         }
     }
