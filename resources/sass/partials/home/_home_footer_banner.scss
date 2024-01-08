@@ -1,7 +1,7 @@
 .home_footer_banner{
+    color: rgb(255,255,255);
     .container{
         background-color: $blue-color;
-        color: $white-color;
         font-size: 1.2rem;
 
         .container_adjustment{
@@ -28,9 +28,7 @@
 
                 table{
                     padding-top: 3rem;
-                    tr, td {
-                        color: rgb(255,255,255) !important;
-                    }
+                    
                     tr{
                         .td-label{
                             vertical-align: top;
@@ -71,7 +69,6 @@
         .container{
             display: block;
             background-color: $blue-color;
-            color: $white-color;
             font-size: 1rem;
     
             .container_adjustment{
@@ -137,7 +134,6 @@
     .home_footer_banner {
         .container{
             background-color: $blue-color;
-            color: $white-color;
             font-size: 1rem;
     
             .container_adjustment{
@@ -196,7 +192,6 @@
     .home_footer_banner{
         .container{
             background-color: $blue-color;
-            color: $white-color;
             font-size: 1rem;
     
             .container_adjustment{
