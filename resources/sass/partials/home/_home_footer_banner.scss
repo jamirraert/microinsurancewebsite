@@ -248,6 +248,7 @@
 
 
 .footer_banner {
+    overflow: hidden;
     .container  {
         background: $blue-color;
     }
@@ -314,7 +315,7 @@
     .footer_banner_inner {
         &_desc {
             h1, p {
-                width: 349px;
+               width: 338px;
             }
             h1{
                 font-size: 19px;
@@ -350,17 +351,21 @@
             width: 100%;
             max-width: 342px;
             margin: 0 auto;
+            h1, p {
+                width: 298px;
+            }
             p {margin-bottom: 30px !important}
             &_img1 {
-                top: -7px;
-                left: 219px;
+                top: 18px;
+                left: -18px;
             }
             &_img2 {
-                top: 78px;
-                left: 267px
+                top: -26px;
+                left: 222px;            
             }
         }
         &_contact {
+        grid-template-columns: 25% 75%;
             margin: 0 auto !important;
             width: 342px;
         }
