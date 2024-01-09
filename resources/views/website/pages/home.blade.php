@@ -356,7 +356,7 @@
             <p>Toll-Free:&nbsp;</p>
             <p style="color: rgb(255,255,255)">{{ (string)$data['tollFree'] }}</p>
             <p>Globe:&nbsp;</p>
-            <p style="color: rgb(255,255,255)" tel="(028) 876 1428">(028) 876 1428</p>
+            <p style="color: rgb(255,255,255); text-decoration: none;" tel="(028) 876 1428">(028) 876 1428</p>
             <p>PLDT:&nbsp;</p>
             <p style="color: rgb(255,255,255)">{{ strval("(032) 342 7826") }}</p>
             <p>Address:&nbsp;</p>
