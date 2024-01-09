@@ -354,11 +354,11 @@
             <p>Email:</p>
             <p style="color: rgb(255,255,255)">support@ruralnet.ph</p>
             <p>Toll-Free:</p>
-            <p style="color: rgb(255,255,255)">{{ `1800 1320 0211` }}</p>
+            <p style="color: rgb(255,255,255)">{{ "1800 1320 0211" }}</p>
             <p>Globe:</p>
-            <p style="color: rgb(255,255,255)">{{ `(028) 876 1428` }}</p>
+            <p style="color: rgb(255,255,255)">{{ "(028) 876 1428" }}</p>
             <p>PLDT:</p>
-            <p style="color: rgb(255,255,255)">{{ `(032) 342 7826` }}</p>
+            <p style="color: rgb(255,255,255)">{{ "(032) 342 7826" }}</p>
             <p>Address:Test</p>
             <p class="footer_banner_inner_contact_address">2F, RuralNet, Inc., 1830 South Building, Arcenas Estate, Brgy. Labangon, Cebu City Cebu</p>
             {{-- <table>
