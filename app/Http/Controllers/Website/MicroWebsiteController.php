@@ -9,6 +9,11 @@ class MicroWebsiteController extends Controller
 {
     public function home()
     {
-        return view('website.pages.home');
+        $data = [
+            "tollFree" => "1800 1320 0211"
+        ];
+        return view('website.pages.home', [
+            "data" => $data
+        ]);
     }
 }
