@@ -351,7 +351,17 @@
             <img src="{{ asset('images/cashko-hand-blue-transparent.png') }}" class="footer_banner_inner_desc_img2" />
         </div>
         <div class="footer_banner_inner_contact">
-            <table>
+            <p>Email:</p>
+            <p>support@ruralnet.ph</p>
+            <p>Toll-Free:</p>
+            <p>1800 1320 0211</p>
+            <p>Globe:</p>
+            <p>(028 876 1428)</p>
+            <p>PLDT:</p>
+            <p>(032) 342 7826</p>
+            <p>Address:</p>
+            <p class="footer_banner_inner_contact_address">2F, RuralNet, Inc., 1830 South Building, Arcenas Estate, Brgy. Labangon, Cebu City Cebu</p>
+            {{-- <table>
                 <tbody>
                     <tr>
                         <td>Email:</td>
@@ -379,7 +389,7 @@
                     </tr>
     
                 </tbody>
-            </table>
+            </table> --}}
         </div>
 
     </div>

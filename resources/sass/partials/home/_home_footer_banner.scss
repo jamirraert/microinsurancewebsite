@@ -246,19 +246,18 @@
 //     }
 // }
 
+
 .footer_banner {
-    background: $blue-color;
-    padding: 1.5rem;
+    .container  {
+        background: $blue-color;
+    }
     line-height: 1.2;
-    height: 100%;
     color: $white-color;
-    max-width: 94.3%;
-    width: 100%;
 }
 
 .footer_banner_inner {
     display: flex;
-
+    padding: 1.5rem;
     &_desc, &_contact {
         width: 50%;
     }
@@ -297,22 +296,14 @@
 
     }
     &_contact {
-        table {
-            margin: 2.3em auto;
-            width: 67%;
-        }
-       tr, td {
-            width: 100%;
-            padding: 0.5em;
-            font-size: 20px;
-            border-collapse: collapse;
-        }
-        tr td:first-child {
-            width: 10%;
-            font-weight: bold;
-        }
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-gap: 0 5px;
+        font-size: 20px;
+        align-items: center;
+        margin-top: 3em;
         &_address {
-            max-width: 400px;
+            max-width: 388px;
             width: 100%;
         }
     }
@@ -343,8 +334,10 @@
             }
         }
         &_contact {
-            table, tr, td {
-                font-size: 15px;
+            margin-bottom: 1.5em;
+            font-size: 15px;
+            & > p {
+                margin-top: 1em;
             }
         }
     }
@@ -357,6 +350,7 @@
             width: 100%;
             max-width: 342px;
             margin: 0 auto;
+            p {margin-bottom: 30px !important}
             &_img1 {
                 top: -7px;
                 left: 219px;
@@ -367,14 +361,8 @@
             }
         }
         &_contact {
-            margin: 0 auto;
+            margin: 0 auto !important;
             width: 342px;
-            table {
-                width: 100%;
-            }
-            &_address {
-                width: 100%;
-            }
         }
     }
 }
