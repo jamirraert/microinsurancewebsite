@@ -354,7 +354,7 @@
             <p>Email:</p>
             <p style="color: rgb(255,255,255)">support@ruralnet.ph</p>
             <p>Toll-Free:&nbsp;</p>
-            <span style="color: rgb(255,255,255)">{{ (string)$data['tollFree'] }}</span>
+            <p style="color: rgb(255,255,255)">{{ (string)$data['tollFree'] }}</p>
             <p>Globe:&nbsp;</p>
             <p style="color: rgb(255,255,255)">{{ strval("(028) 876 1428") }}</p>
             <p>PLDT:&nbsp;</p>
