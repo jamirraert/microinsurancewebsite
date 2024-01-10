@@ -30,7 +30,7 @@
                 <li><a href="#section_1">CUSTOMERS</a></li>
                 <li><a href="#section_5">PARTNERS</a></li>
                 <li><a href="#home_faq">FAQS</a></li>
-                <li><a href="#home_footer_banner">CONTACT</a></li>
+                <li><a href="#custom_contact">CONTACT</a></li>
             </ul>
             <button id="open_nav_btn"><i class='bx bx-menu'></i></button>
             <button id="close_nav_btn"><i class='bx bx-x'></i></button>

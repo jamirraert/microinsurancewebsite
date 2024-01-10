@@ -340,7 +340,7 @@
     </div>
 </div> --}}
 
-<div class="footer_banner" id="home_footer_banner">
+<div class="footer_banner" id="custom_contact">
    <div class="container">
     <div class="footer_banner_inner">
 
