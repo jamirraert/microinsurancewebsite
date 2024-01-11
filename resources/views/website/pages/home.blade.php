@@ -75,7 +75,7 @@
         <div class="adjust">
             <div>
                 <p>Need help with your policies or claims?</p>
-                <button class="btn_blue" onclick="scrollToSection('home_footer_banner')">CONTACT US</button>
+                <button class="btn_blue" onclick="scrollToSection('custom_contact')">CONTACT US</button>
             </div>
         </div>
     </div>
@@ -228,6 +228,20 @@
                 </div>
             </div>
             <script>
+                console.log(1);
+            function scrollToSection(id) {
+                var targetSection = document.getElementById(id);
+
+                if (targetSection && !window.location.hash.includes(id)) {
+                    // Update the URL fragment without triggering a scroll
+                    history.replaceState(null, null, '#' + id);
+
+                    targetSection.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+
                 document.addEventListener('DOMContentLoaded', function() {
                 let accordionItems = document.querySelectorAll('#accordion-item');
                 let currentlyOpenItem = null;
@@ -395,18 +409,4 @@
     </div>
    </div>
 </div>
-<script>
-    function scrollToSection(id) {
-    var targetSection = document.getElementById(id);
-
-    if (targetSection && !window.location.hash.includes(id)) {
-        // Update the URL fragment without triggering a scroll
-        history.replaceState(null, null, '#' + id);
-
-        targetSection.scrollIntoView({
-            behavior: 'smooth'
-        });
-    }
-}
-</script>
 @endsection
